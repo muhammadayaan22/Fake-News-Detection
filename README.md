@@ -1,37 +1,28 @@
-**Fake News Detection (Machine Learning)**
+==========================
+   FAKE NEWS DETECTION
+==========================
 
-This project classifies news articles as Real or Fake using Python, NumPy, Pandas, and various machine learning models. It processes text data, extracts features using TF-IDF, trains multiple classifiers, and evaluates their accuracy.
+FEATURES
+--------
+- Data cleaning & preprocessing
+- TF-IDF feature extraction
+- ML models: Logistic Regression, Naive Bayes, Random Forest, Passive Aggressive
+- Evaluation: Accuracy, Confusion Matrix, Classification Report
+- Prediction on custom news input
 
-**Features**
+TECHNOLOGIES USED
+-----------------
+- Python
+- NumPy, Pandas
+- Scikit-learn
+- NLTK (optional)
 
-Data cleaning & preprocessing
+RESULTS
+-------
+Logistic Regression and Passive Aggressive Classifier achieve ~90–95% accuracy.
 
-TF-IDF feature extraction
-
-Multiple ML models: Logistic Regression, Naive Bayes, Random Forest, Passive Aggressive Classifier
-
-Evaluation using accuracy, confusion matrix, and classification report
-
-Prediction on custom user input
-
-**Technologies Used**
-
-Python
-
-NumPy, Pandas
-
-Scikit-learn
-
-NLTK (optional for text cleaning)
-
-**Results**
-
-Logistic Regression and Passive Aggressive Classifier achieve the highest accuracy (~90–95%).
-
-**Future Improvements**
-
-Deep learning models (LSTM)
-
-Streamlit/Flask interface
-
-Real-time prediction API
+FUTURE IMPROVEMENTS
+-------------------
+- Deep learning models (LSTM)
+- Streamlit/Flask interface
+- Real-time prediction API
